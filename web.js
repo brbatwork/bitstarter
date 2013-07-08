@@ -9,7 +9,6 @@ app.get('/', function(request, response) {
     var buf = new Buffer(data);
     response.send(buf.toString());
   });
-  response.send('Hello World 2!');
 });
 
 var port = process.env.PORT || 5000;
